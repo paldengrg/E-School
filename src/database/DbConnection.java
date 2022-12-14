@@ -22,15 +22,15 @@ public class DbConnection {
 
         try {
 
-            String username = "root";
+            String username = "root_school";
 
-            String password = "Sth@582818";
+            String password = "12345678";
 
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             connection = DriverManager.getConnection(
 
-                    "jdbc:mysql://localhost:3306/Java",username,password);
+                    "jdbc:mysql://db4free.net/e_school123",username,password);
 
 
 
