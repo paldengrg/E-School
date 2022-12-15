@@ -1,6 +1,6 @@
 package controller;
-import Database.DbConnection;
-import Model.Student;
+import database.DbConnection;
+import model.Student;
 
 
 
