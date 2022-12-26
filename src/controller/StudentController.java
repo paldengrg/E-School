@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 package Controller;
 import Database.DbConnection;
 import model.Student;
 
+=======
+package controller;
+import database.DbConnection;
+import model.Student;
+
+
+
+>>>>>>> 89056bda2dfdd0a860d0b51e785225fa9e50fef1
 public class StudentController {
     DbConnection dbConnection;
     public int insertStudent(Student student) {
@@ -16,7 +25,13 @@ public class StudentController {
         return result;
     }
 
+<<<<<<< HEAD
     public int updateStudent(Student student) {
+=======
+
+
+   public int updateStudent(Student student) {
+>>>>>>> 89056bda2dfdd0a860d0b51e785225fa9e50fef1
         int id=student.getStudentId();
         String name=student.getStudentname();
         String address=student.getStudentaddress();

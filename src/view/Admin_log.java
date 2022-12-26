@@ -36,6 +36,7 @@ public class Admin_log extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -53,7 +54,7 @@ public class Admin_log extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Helvetica Neue", 0, 17)); // NOI18N
         jLabel2.setText("Login to continue");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("/Users/aayushmanshrestha/Downloads/school-mgmt-system.jpg")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/model/school-mgmt-system.jpg")); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Helvetica Neue", 0, 16)); // NOI18N
         jLabel3.setText("Admin E-mail ");
@@ -83,6 +84,13 @@ public class Admin_log extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setText("Back");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -109,7 +117,10 @@ public class Admin_log extends javax.swing.JFrame {
                                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(85, 85, 85)
-                                .addComponent(jButton1)))))
+                                .addComponent(jButton1))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(80, 80, 80)
+                                .addComponent(jButton3)))))
                 .addGap(108, 108, 108))
         );
         layout.setVerticalGroup(
@@ -131,6 +142,8 @@ public class Admin_log extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton2)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -155,6 +168,12 @@ public class Admin_log extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new Homepage().setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -195,6 +214,7 @@ public class Admin_log extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
