@@ -1,6 +1,6 @@
 package model;
 
-public class Student {
+public class registrationmodel {
         private int id;
         private String Username;
         private String Email;
