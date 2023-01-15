@@ -42,11 +42,11 @@ public class DbConnection {
 
 
 
-           String username = "root_school";
+           String username = "root";
 
 
 
-           String password = "12345678";
+           String password = "Gionee122@";
 
 
 
@@ -58,7 +58,7 @@ public class DbConnection {
 
 
 
-                   "jdbc:mysql://db4free.net/e_school123",username,password);
+                   "jdbc:mysql://localhost:3306/connection","root","Gionee122@");
 
 
 
