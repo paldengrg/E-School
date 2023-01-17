@@ -4,8 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/database/DbConnection.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/view/Admin_log.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/view/DRoutine.java</file>
             <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/model/Student.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/view/Teacher_dashboard.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/view/LoginScreenn.java</file>
             <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/controller/StudentController.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/model/LoginModel.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/view/Homepage.java</file>
+            <file>file:/Users/aayushmanshrestha/NetBeansProjects/eSchool/src/view/academic_records.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,105 +1,34 @@
 package database;
-
-
-
 import javax.swing.*;
-
-
-
 import java.sql.*;
-
-
-
-
-
 public class DbConnection {
-
-
-
    public Connection connection;
-
-
-
    Statement statement;
-
-
-
    ResultSet resultSet;
-
-
-
    int value;
-
-
-
-
-
    public DbConnection(){
-
-
-
        try {
-
-
-
            String username = "root";
-
-
 
            String password = "Gionee122@";
 
-
-
            Class.forName("com.mysql.cj.jdbc.Driver");
 
-
-
            connection = DriverManager.getConnection(
-
-
-
                    "jdbc:mysql://localhost:3306/connection","root","Gionee122@");
-
-
-
-
-
                    if(connection!=null){
-
-
-
                        System.out.println("Connected to database");
-
-
-
                    }else{
-
-
 
                        System.out.println("Error connecting to database");
 
-
-
                    }
-
-
-
            statement = connection.createStatement();
-
-
-
        }catch (Exception e){
-
-
-
            e.printStackTrace();
 
-
-
        }
-
-
-
+x
    }
 
 
